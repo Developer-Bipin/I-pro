@@ -611,6 +611,27 @@ a:hover {
 .team-member p {
     color: #666;
 }
+.member-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+    transition: 0.3s ease;
+}
+
+.member-icon i {
+    font-size: 48px;
+    color: #fff;
+}
+
+.team-member:hover .member-icon {
+    background: #222;
+    transform: scale(1.05);
+}
 
 /* Stats Section */
 .stats-section {
