@@ -818,6 +818,32 @@ a:hover {
     color: #f5f5f7;
     margin-bottom: 5px;
 }
+.map-section {
+    padding: 60px 0;
+    background: #f9fafb;
+}
+
+.map-container {
+    margin-top: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.map-info {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.map-info h3 {
+    font-size: 22px;
+    margin-bottom: 6px;
+}
+
+.map-info p {
+    color: #555;
+    line-height: 1.6;
+}
 
 /* FAQ Section */
 .faq-section {
