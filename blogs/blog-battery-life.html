@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pro tips to maximize iPhone battery performance and learn when to consider battery replacement for optimal device performance.">
+    <meta name="keywords" content="iPhone battery life, battery optimization, battery health tips, iPhone battery replacement, extend battery life">
+    <title>Extend Your iPhone Battery Life - Pro Apple Repair Center</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍎</text></svg>">
+    <style>
+        .blog-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        
+        .blog-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .blog-category {
+            display: inline-block;
+            background-color: #34c759;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        
+        .blog-title {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #1d1d1f;
+            line-height: 1.3;
+        }
+        
+        .blog-meta {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            color: #666;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .blog-meta-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .blog-meta-item i {
+            color: #34c759;
+        }
+        
+        .featured-image {
+            margin-bottom: 40px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .featured-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .blog-body h2 {
+            font-size: 1.8rem;
+            margin: 40px 0 20px;
+            color: #1d1d1f;
+        }
+        
+        .blog-body h3 {
+            font-size: 1.4rem;
+            margin: 30px 0 15px;
+            color: #1d1d1f;
+        }
+        
+        .blog-body p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            margin-bottom: 20px;
+            color: #424245;
+        }
+        
+        .tip-box {
+            background-color: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 8px;
+        }
+        
+        .warning-box {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 8px;
+        }
+        
+        .battery-tips-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        
+        .battery-tip {
+            background-color: #f8f9fa;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .battery-tip:hover {
+            transform: translateY(-5px);
+        }
+        
+        .battery-tip i {
+            font-size: 2.5rem;
+            color: #34c759;
+            margin-bottom: 15px;
+        }
+        
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 40px 0;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .comparison-table th {
+            background-color: #0066cc;
+            color: white;
+            padding: 15px;
+            text-align: left;
+        }
+        
+        .comparison-table td {
+            padding: 15px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        
+        .comparison-table tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        
+        .good {
+            color: #28a745;
+            font-weight: 600;
+        }
+        
+        .bad {
+            color: #dc3545;
+            font-weight: 600;
+        }
+        
+        .blog-footer {
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 1px solid #eaeaea;
+        }
+        
+        .share-buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .share-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            border-radius: 8px;
+            color: white;
+            font-weight: 600;
+            transition: transform 0.3s;
+        }
+        
+        .share-btn:hover {
+            transform: translateY(-3px);
+        }
+        
+        .facebook { background-color: #3b5998; }
+        .twitter { background-color: #1da1f2; }
+        .whatsapp { background-color: #25d366; }
+        
+        .related-blogs {
+            margin-top: 60px;
+        }
+        
+        .related-blogs h3 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .related-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .related-card {
+            background-color: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s;
+        }
+        
+        .related-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .related-image {
+            height: 180px;
+            overflow: hidden;
+        }
+        
+        .related-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .related-content {
+            padding: 20px;
+        }
+        
+        .related-content h4 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        
+        .related-content p {
+            font-size: 0.95rem;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        @media (max-width: 768px) {
+            .blog-title {
+                font-size: 2rem;
+            }
+            
+            .blog-meta {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+            
+            .share-buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-img">
+                    <i class="fab fa-apple"></i>
+                    <span>Pro</span>
+                </div>
+                <div class="logo-text">
+                    <h1>APPLE REPAIR CENTER</h1>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" class="active">Blog</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Content -->
+    <main class="blog-content">
+        <div class="container">
+            <div class="blog-header">
+                <span class="blog-category">Guide</span>
+                <h1 class="blog-title">Extend Your iPhone Battery Life</h1>
+                <div class="blog-meta">
+                    <div class="blog-meta-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Published: March 10, 2024</span>
+                    </div>
+                    <div class="blog-meta-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Read time: 6 minutes</span>
+                    </div>
+                    <div class="blog-meta-item">
+                        <i class="fas fa-user"></i>
+                        <span>By: Maria Rodriguez</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="featured-image">
+                <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="iPhone battery optimization">
+            </div>
+            
+            <div class="blog-body">
+                <p>Your iPhone's battery is its lifeblood. As batteries age, they naturally lose capacity, but there are many ways to maximize performance and extend their lifespan. In this comprehensive guide, we'll share professional tips to help you get the most out of your iPhone's battery and know exactly when it's time for a replacement.</p>
+                
+                <div class="tip-box">
+                    <h3><i class="fas fa-lightbulb"></i> Quick Tip</h3>
+                    <p>Check your battery health in Settings > Battery > Battery Health. If it's below 80%, it's time to consider a replacement for optimal performance.</p>
+                </div>
+                
+                <h2>Understanding iPhone Battery Health</h2>
+                <p>All lithium-ion batteries degrade over time. Apple designs iPhone batteries to retain up to 80% of their original capacity at 500 complete charge cycles. Several factors affect battery health:</p>
+                
+                <table class="comparison-table">
+                    <tr>
+                        <th>Factor</th>
+                        <th>Effect on Battery</th>
+                        <th>Recommendation</th>
+                    </tr>
+                    <tr>
+                        <td>Temperature</td>
+                        <td class="bad">High heat accelerates degradation</td>
+                        <td>Avoid leaving iPhone in hot cars or direct sunlight</td>
+                    </tr>
+                    <tr>
+                        <td>Charge Cycles</td>
+                        <td class="bad">Each cycle reduces capacity slightly</td>
+                        <td>Don't worry about cycles - they're inevitable with use</td>
+                    </tr>
+                    <tr>
+                        <td>Charging Habits</td>
+                        <td class="good">Optimal charging extends life</td>
+                        <td>Keep battery between 20-80% when possible</td>
+                    </tr>
+                    <tr>
+                        <td>Storage</td>
+                        <td class="bad">Full discharge during storage damages battery</td>
+                        <td>Store at 50% charge if not using for months</td>
+                    </tr>
+                </table>
+                
+                <h2>Top 10 Battery Optimization Tips</h2>
+                
+                <div class="battery-tips-grid">
+                    <div class="battery-tip">
+                        <i class="fas fa-sun"></i>
+                        <h3>Enable Auto-Brightness</h3>
+                        <p>Let your iPhone adjust screen brightness automatically to save power.</p>
+                    </div>
+                    <div class="battery-tip">
+                        <i class="fas fa-wifi"></i>
+                        <h3>Use Wi-Fi When Available</h3>
+                        <p>Wi-Fi uses less power than cellular data for internet access.</p>
+                    </div>
+                    <div class="battery-tip">
+                        <i class="fas fa-bell-slash"></i>
+                        <h3>Manage Notifications</h3>
+                        <p>Reduce unnecessary notifications that wake your screen.</p>
+                    </div>
+                    <div class="battery-tip">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Limit Location Services</h3>
+                        <p>Set location access to "While Using" instead of "Always" for most apps.</p>
+                    </div>
+                </div>
+                
+                <div class="battery-tips-grid">
+                    <div class="battery-tip">
+                        <i class="fas fa-sync-alt"></i>
+                        <h3>Update Background App Refresh</h3>
+                        <p>Disable background refresh for apps that don't need it.</p>
+                    </div>
+                    <div class="battery-tip">
+                        <i class="fas fa-power-off"></i>
+                        <h3>Use Low Power Mode</h3>
+                        <p>Enable when battery is low to extend remaining charge.</p>
+                    </div>
+                    <div class="battery-tip">
+                        <i class="fas fa-temperature-low"></i>
+                        <h3>Avoid Extreme Temperatures</h3>
+                        <p>Keep your iPhone between 0° and 35° C (32° to 95° F).</p>
+                    </div>
+                    <div class="battery-tip">
+                        <i class="fas fa-bolt"></i>
+                        <h3>Use Optimized Charging</h3>
+                        <p>Enable in Settings to slow battery aging by reducing time at 100%.</p>
+                    </div>
+                </div>
+                
+                <h2>Common Battery Myths Debunked</h2>
+                
+                <div class="warning-box">
+                    <h3><i class="fas fa-times-circle"></i> Myth: You Should Fully Drain Your Battery Before Charging</h3>
+                    <p><strong>Truth:</strong> This was true for old nickel-cadmium batteries but harms modern lithium-ion batteries. Frequent partial charges are better than full discharge cycles.</p>
+                </div>
+                
+                <div class="warning-box">
+                    <h3><i class="fas fa-times-circle"></i> Myth: Leaving Your Phone Plugged In Overnight Damages the Battery</h3>
+                    <p><strong>Truth:</strong> Modern iPhones have smart charging circuits that stop charging when full. However, keeping it at 100% for extended periods can cause slight wear.</p>
+                </div>
+                
+                <div class="warning-box">
+                    <h3><i class="fas fa-times-circle"></i> Myth: Third-Party Chargers Always Damage Batteries</h3>
+                    <p><strong>Truth:</strong> Certified third-party chargers from reputable brands are safe. Avoid cheap, uncertified chargers that may not have proper safety circuits.</p>
+                </div>
+                
+                <h2>When to Consider Battery Replacement</h2>
+                <p>Even with perfect care, batteries eventually need replacement. Look for these signs:</p>
+                
+                <h3>1. Battery Health Below 80%</h3>
+                <p>Check in Settings > Battery > Battery Health. Below 80%, performance throttling may occur, and you'll notice significantly shorter battery life.</p>
+                
+                <h3>2. Unexpected Shutdowns</h3>
+                <p>If your iPhone turns off unexpectedly at 20-30% charge, the battery can no longer deliver peak power demands.</p>
+                
+                <h3>3. Swelling Battery</h3>
+                <p>A swollen battery is a safety hazard. If your iPhone case is bulging or the screen is lifting, seek immediate professional help.</p>
+                
+                <h3>4. Extremely Slow Charging</h3>
+                <p>If your iPhone takes much longer to charge than it used to, even with the original charger, the battery may be failing.</p>
+                
+                <h2>Professional Battery Replacement at Pro Apple Repair Center</h2>
+                <p>When it's time for a battery replacement, trust the experts at Pro Apple Repair Center:</p>
+                <ul>
+                    <li><strong>Genuine Apple Batteries:</strong> We use authentic batteries that meet Apple's specifications</li>
+                    <li><strong>Certified Technicians:</strong> Our experts have the training and tools for safe, precise replacement</li>
+                    <li><strong>Same-Day Service:</strong> Most battery replacements completed within 1-2 hours</li>
+                    <li><strong>Data Protection:</strong> Your data remains safe throughout the process</li>
+                    <li><strong>90-Day Warranty:</strong> All battery replacements come with a warranty for peace of mind</li>
+                    <li><strong>Free Diagnostics:</strong> We'll check your battery health and provide honest recommendations</li>
+                </ul>
+                
+                <div class="tip-box">
+                    <h3><i class="fas fa-dollar-sign"></i> Cost-Saving Tip</h3>
+                    <p>Replacing an old battery is often more cost-effective than buying a new iPhone. A fresh battery can make your device feel new again, extending its usable life by years.</p>
+                </div>
+                
+                <h2>Maintenance Schedule</h2>
+                <p>For optimal battery health, follow this maintenance schedule:</p>
+                <ul>
+                    <li><strong>Daily:</strong> Keep battery between 20-80% when convenient</li>
+                    <li><strong>Weekly:</strong> Check Battery Health in Settings</li>
+                    <li><strong>Monthly:</strong> Update to latest iOS version</li>
+                    <li><strong>Every 6 Months:</strong> Calibrate battery by doing one full charge cycle (0-100%)</li>
+                    <li><strong>Annually:</strong> Have battery health professionally checked if heavily used</li>
+                </ul>
+            </div>
+            
+            <div class="blog-footer">
+                <h3>Share This Article</h3>
+                <div class="share-buttons">
+                    <a href="#" class="share-btn facebook">
+                        <i class="fab fa-facebook-f"></i>
+                        Share on Facebook
+                    </a>
+                    <a href="#" class="share-btn twitter">
+                        <i class="fab fa-twitter"></i>
+                        Share on Twitter
+                    </a>
+                    <a href="#" class="share-btn whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                        Share on WhatsApp
+                    </a>
+                </div>
+            </div>
+            
+            <div class="related-blogs">
+                <h3>Related Articles</h3>
+                <div class="related-grid">
+                    <div class="related-card">
+                        <div class="related-image">
+                            <img src="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="iPhone Water Damage">
+                        </div>
+                        <div class="related-content">
+                            <h4>What to Do When Your iPhone Gets Wet</h4>
+                            <p>Essential steps to minimize water damage and increase chances of successful repair.</p>
+                            <a href="blog-water-damage.html" class="btn-small">Read More</a>
+                        </div>
+                    </div>
+                    <div class="related-card">
+                        <div class="related-image">
+                            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="MacBook Screen">
+                        </div>
+                        <div class="related-content">
+                            <h4>Protecting Your MacBook Screen</h4>
+                            <p>Common causes of screen damage and how to prevent expensive repairs.</p>
+                            <a href="blog-macbook-screen.html" class="btn-small">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html" class="logo">
+                        <div class="logo-img">
+                            <i class="fab fa-apple"></i>
+                            <span>Pro</span>
+                        </div>
+                        <div class="logo-text">
+                            <h3>APPLE REPAIR CENTER</h3>
+                        </div>
+                    </a>
+                    <p>Professional Apple device repairs with certified technicians and genuine parts.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Tech Street, City, State 12345</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@proapplerepair.com</p>
+                    <p><i class="fas fa-clock"></i> Mon-Fri: 9am-7pm, Sat: 10am-5pm, Sun: 11am-4pm</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Pro Apple Repair Center. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
